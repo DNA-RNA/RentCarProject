@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using Business.Constans;
 using Business.ValidationRules.FluentValidator;
+using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities;
 using DataAccess.Abstract;
@@ -36,12 +37,10 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(c => c.ColorId == colorId));
         }
-    
+        //add metodunu carvalidatordaki kurallara göre kullanarak doğrula
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-
-            ValidationTool.Validate(new CarValidator(), car);
-
             _carDal.Add(car);
              return new SuccessResult(Messages.CarAdded);
                        
