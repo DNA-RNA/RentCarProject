@@ -11,6 +11,9 @@ Araç kiralanırken yapılacak işlemlerin (araç, müşteri, sipariş ekleme, s
 
 ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/book.svg" width="30" height="30"> Prerequisites --- Gerekli Kütüphaneler
  [![.NET](https://img.shields.io/badge/--512BD4?logo=.net&logoColor=ffffff)](https://dotnet.microsoft.com/)  EntityFramework
+ 
+ 
   [![.NET](https://img.shields.io/badge/--512BD4?logo=.net&logoColor=ffffff)](https://dotnet.microsoft.com/)  Standart Library 
+  
   Autofac, Autofac dependency injection
  FluentValidation
