@@ -46,7 +46,7 @@ Bu katmanda veritabanında oluşturduğumuz tablolara karşılık gelen classlar
 
 ### **DataAccess Katmanı** 
 Bu katmanda Entity katmanındaki nesnelerin CRUD(Create Read Update Delete) işlemlerini yapıyoruz. **Abstract** klasöründe soyut nesnelerimiz,  **Concrete** klasöründe ise somut nesnelerimiz bulunmaktadır.
-Veritabanı ile Entity arasındaki bağlantıyı sağlamak için **ORM(Object Relational Mapper)** programlama tekniğini kullanırız. Bunu uygulamak için geliştirilmiş birçok toollar var(NHibernate,Inmemory,MyBatis vb.) Bu projede **EntityFramework** kullanıldı. Belki sonradan başka teknoloji kullanma kararı alınırsa diye sisteme doğrudan eklemiyoruz. Böylece **SOLID'in O (Open closed prenciple)** prensibine uygun hale getiriyoruz. Yani yeni özellik eklense bile mevcut kodlar etkilenmemeli.
+Veritabanı ile Entity arasındaki bağlantıyı sağlamak için **ORM(Object Relational Mapper)** programlama tekniğini kullanırız. Bunu uygulamak için geliştirilmiş birçok toollar var(NHibernate,Inmemory,MyBatis vb.) Bu projede **EntityFramework** kullanıldı. Belki sonradan başka teknoloji kullanma kararı alınırsa diye sisteme doğrudan eklemiyoruz. Böylece **SOLID'in O (Open closed principle)** prensibine uygun hale getiriyoruz. Yani yeni özellik eklense bile mevcut kodlar etkilenmemeli.
 ****
 ![database-layer](https://user-images.githubusercontent.com/77885953/176658984-0ad16d8d-1c18-43a7-86ad-7e6165ed0fda.png)
 
