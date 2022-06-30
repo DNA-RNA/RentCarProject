@@ -17,3 +17,12 @@ Araç kiralanırken yapılacak işlemlerin (araç, müşteri, sipariş ekleme, s
   
   Autofac, Autofac dependency injection
  FluentValidation
+ 
+ ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/database.svg" width="30" height="30"> Database --- Veritabanı Tabloları
+ Sistem için gerekli tablolar;
+ -  **Cars**: Arabaların bilgilerini tutar.
+ - **Colors**: Arabaların renk bilgilerini tutar.
+ - **Brands**: Arabaların marka bilgilerini tutar.
+ - **Users**: Sistemi kullanacak kişilerin bilgilerini tutar.
+ - **Customers**: Kiralayacak kişilerin bilgilerini tutar.
+ 
