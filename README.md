@@ -50,5 +50,13 @@ Veritabanı ile Entity arasındaki bağlantıyı sağlamak için **ORM(Object Re
 ****
 ![database-layer](https://user-images.githubusercontent.com/77885953/176658984-0ad16d8d-1c18-43a7-86ad-7e6165ed0fda.png)
 
+***
+### **Business Katmanı** 
+ **Business Katmanı**'nı sunum katmanından gelen bilgileri gerekli koşullara göre işlemek veya denetlemek  ve **DataAccess** katmanındaki işlemleri yönetmek için oluşturulmuştur. Abstract, Concrete, Constants, DependencyResolvers ve ValidationRules olmak üzere dört adet klasör bulunmaktadır. **Abstract** klasörü soyut nesneleri, **Concrete** klasörü somut nesneleri tutmak için oluşturulmuştur. 
+ **ValidationRules** klasörlerinde validation işlemlerinin gerçekleştiği classlar mevcuttur.
+  **Dependency Business** klasörüne ise Ioc altyapısını kullanacağımız NuGetleri eklenmiştir. AutoFac kullanılarak **WebAPI**'de startup.cs 'deki servisleri ekleme işlemleri gerçekleştirilmiştir.
+  ***
+  ![business](https://user-images.githubusercontent.com/77885953/176678261-0ab5b9f1-617d-4d95-9922-a9e3b72667d5.png)
+
  
  
