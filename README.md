@@ -69,5 +69,15 @@ Veritabanı ile Entity arasındaki bağlantıyı sağlamak için **ORM(Object Re
  ***
 ![core](https://user-images.githubusercontent.com/77885953/176686008-4a47df11-f46f-467b-9fb2-eef381567d0e.png)
 
+***
+### **WebAPI  Katmanı** 
+**WebAPI  Katmanı**, backend kodlarıyla frontend arasındaki bağlantıyı sağlar. Controllers kalsörü, startup.cs ve program.cs dosyalarından oluşur.
+
+-  **Controllers** klasörü, sistemi kullanacak clientler(tarayıcı,mobil app), hangi operasyonlar için nasıl istekte bulunacağına dair kodları içerir. 
+- **Startup.cs** Ioc configrationu sağlayarak controlleri eklediğimiz class
+- **Program.cs** programı çalıştırdığımız main class
+***
+![webAPI](https://user-images.githubusercontent.com/77885953/176690582-5a2613e9-232f-4082-ab7b-8df439cf97cc.png)
+
  
  
