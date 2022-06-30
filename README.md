@@ -32,4 +32,15 @@ Tablonun kodlarına ulaşmak için --> [Db.Sql](https://github.com/DNA-RNA/RentC
  
  ![database](https://user-images.githubusercontent.com/77885953/176639156-4f6137e2-b9cb-4269-a95b-71438c100566.png)
  
+ ## <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/layer-group.svg" width="30" height="30"> Layers --- Katmanlar
+![layers](https://user-images.githubusercontent.com/77885953/176639496-5f17d957-0097-45ee-b248-69c4c061f124.jpg)
+
+Backend katmanı;**Entities**, **DataAccess**, **Business**, **Core**, **WebAPI**, **WepfUI** katmanlarından oluşur.
+
+### **Entities Katmanı** 
+Bu katmanda veritabanında oluşturduğumuz tablolara karşılık gelen classları oluşturuyoruz. Bu sınıflar somut oldukları için **Concrete** klasörü altında oluşturduk. Yazılım geliştirme prensiplerine göre açıkta class kalmaması için soyut bir IEntity.cs interface oluşturup bu classlara implement(uyguluyoruz) ediyoruz.
+
+![entities-layer](https://user-images.githubusercontent.com/77885953/176646475-1ee51b03-eb06-42ff-a418-df4d31a636c5.png)
+
+ 
  
