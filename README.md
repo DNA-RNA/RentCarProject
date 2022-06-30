@@ -26,3 +26,5 @@ Araç kiralanırken yapılacak işlemlerin (araç, müşteri, sipariş ekleme, s
  - **Users**: Sistemi kullanacak kişilerin bilgilerini tutar.
  - **Customers**: Kiralayacak kişilerin bilgilerini tutar.
  
+ ![database](https://user-images.githubusercontent.com/77885953/176639156-4f6137e2-b9cb-4269-a95b-71438c100566.png)
+ 
