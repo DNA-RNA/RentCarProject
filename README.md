@@ -3,7 +3,7 @@
   
   ##  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/thumbtack.svg" width="30" height="30"> About The Project -- Proje Hakkında
 
->### Bu repo ***[C# Yazılım Geliştirici Yetiştirme Kampı](https://www.kodlama.io/courses/)*** 'nda yapılan çalışmalara paralel geliştirilmiştir.
+>### Bu repo ***[C# Yazılım Geliştirici Yetiştirme Kampı](https://www.kodlama.io/courses/)*** 'nda yapılan çalışmalara paralel olarak geliştirdiğim özgün projemdir.
 
 ##  <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/thumbtack.svg" width="30" height="30">  Getting Started
 
