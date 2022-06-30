@@ -57,6 +57,17 @@ Veritabanı ile Entity arasındaki bağlantıyı sağlamak için **ORM(Object Re
   **Dependency Business** klasörüne ise Ioc altyapısını kullanacağımız NuGetleri eklenmiştir. AutoFac kullanılarak **WebAPI**'de startup.cs 'deki servisleri ekleme işlemleri gerçekleştirilmiştir.
   ***
   ![business](https://user-images.githubusercontent.com/77885953/176678261-0ab5b9f1-617d-4d95-9922-a9e3b72667d5.png)
+  
+  ***
+  ### **Core Katmanı** 
+**Core Katmanı**, tüm proje/lerde kullanılcak base kodlar yazılır. Bu katmanda alt klasörler oluşturarak diğer katmanlar için evrensel kodları yazarız. Bu katmanda DataAccess , Entities ,  Utilities, Aspect, CrossCuttingConcerns olmak üzere beş adet klasör bulunmaktadır.
+
+- **DataAccess** klasörü DataAccess Katmanı ile ilgili nesneleri, **Entities** klasörü Entities katmanı ile ilgili nesneleri tutmak için oluşturulmuştur.
+- **Utilities** klasörü sistemi oluştururken kullandığımız toolları içeren katmandır. Response/request başarılı gerçekleşip gerçekleşmediğine dair kodları, yüklenecek dosya varsa aynı isimde yüklenmesini önleyici kodları içerir.
+- **CrossCuttingConcerns** klasörü loglama,validation vb. işlemlerin yazıldığı kodları içerir.
+- **Aspect** klasörü  CrossCuttingConcerns klasöründeki işlemleri business katmanındaki kodlara entegre ederken hangi işlemin önce ya da sonra yapılacağını düzenleyen kod bloklarını içerir.
+ ***
+![core](https://user-images.githubusercontent.com/77885953/176686008-4a47df11-f46f-467b-9fb2-eef381567d0e.png)
 
  
  
